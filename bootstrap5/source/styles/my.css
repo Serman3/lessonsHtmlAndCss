@@ -1,0 +1,44 @@
+
+.btn-secondary {
+    margin-top: auto; /* прижимаем кнопку к нижней границе карточки */
+    border-radius: 5px; 
+    font-size: 14px; /* уменьшаем размер шрифта */
+    padding: 5px 10px; /* задаем отступы */
+  }
+
+  .btn-secondary {
+    background-color: black; /* изменяем цвет фона кнопки на белый при наведении */
+    color: white; /* изменяем цвет текста кнопки на черный при наведении */
+  }
+
+  .btn-secondary:hover {
+    background-color: white; 
+    color: black; 
+  }
+
+
+
+  .btn-outline-secondary {
+    width: 15px;
+    margin: 5px; /* прижимаем кнопку к нижней границе карточки */
+    border-radius: 5px; 
+    font-size: 14px; /* уменьшаем размер шрифта */
+    padding: 5px 10px; /* задаем отступы */
+    margin-right: 10px; /* добавляем отступ между кнопками */
+  }
+
+  .btn-outline-secondary {
+    background-color: black; 
+    color: white;
+  }
+
+  .btn-outline-secondary:hover {
+    background-color: white; 
+    color: black; 
+  }
+
+  .form-control {
+    height: 32px; /* уменьшаем высоту */
+    width: 50px;
+    text-align: center;
+  }

@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata&display=swap);
+
+body {
+  font-family: Inconsolata, serif;
+  background: linear-gradient(233deg, #FFFFFF 0%, #000000 10%, #FFFFFF 26%, #FFBABA 100%);
+}
+
+.nav-link {
+    color: gray;
+}
+
+.navbar-nav .nav-link.active {
+    color: black;
+}
+
+.navbar-brand img {
+    width: 80px;
+}
+
+.card {
+  height: 100%; /* задаем высоту для карточки */
+  background: linear-gradient(270deg, #E7DDDD 0%, #5C5C5C 5%, #E7D6D6 15%, #FFF4F4 100%);
+}
+
+.card,
+.card-text a {
+  text-decoration: none;
+  color: black;
+}
+  
+.card-body {
+  height: 100%; /* задаем высоту для области с текстом */
+  display: flex;
+  flex-direction: column;
+}
+  
+.card-title {
+  font-size: 18px; /* задаем размер шрифта для заголовка */
+}
+  
+.card-text {
+  flex-grow: 1; /* занимает всю доступную высоту внутри flex-контейнера */
+  font-size: 13px; /* задаем размер шрифта для текста */
+}
+  
+.btn-primary {
+  margin-top: auto; /* прижимаем кнопку к нижней границе карточки */
+  border-radius: 5px; 
+  background-color: black; /* изменяем цвет фона кнопки на черный */
+  color: white; /* изменяем цвет текста кнопки на белый */
+  /* задаем скругление углов кнопки */
+  /* Дополнительные свойства для внешнего вида контура */
+  /* Ты можешь настроить толщину границы, стиль (пунктирный, сплошной и т.д.), радиус скругления углов и другие свойства по своему усмотрению */
+} 
+
+.btn-primary:hover {
+  background-color: white; /* изменяем цвет фона кнопки на белый при наведении */
+  color: black; /* изменяем цвет текста кнопки на черный при наведении */
+}
+
+.sidebar {
+  color: black;
+  border-radius: 5px; 
+  background: linear-gradient(233deg, #FFFFFF 0%, #000000 10%, #FFFFFF 26%, #FFBABA 100%);
+
+}
+
+
+
+  
+ 
